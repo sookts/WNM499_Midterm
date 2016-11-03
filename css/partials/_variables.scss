@@ -1,0 +1,43 @@
+$main-color: #e50707;
+$sub-color: blanchedalmond;
+
+$color-hero:green;
+$color-warning:green;
+$color-alert:green;
+
+$size-small: 5px;
+$size-medium: $size-small*2;
+$size-large: $size-medium*2;
+
+
+$fontsize-base: 16px;
+
+$columns: 12;
+$column-gutter: 10px;
+
+$breakpoints: (
+  xs:0, 
+  sm:420px,
+  md:800px,
+  lg:1000px,
+  xl:1200px,
+);
+
+$positions-map:(
+	t:top,
+	r:right,
+	b:bottom,
+	l:left
+);
+
+$boxes-map:(
+	p:padding,
+	m:margin
+);
+
+$sizes-map:(
+	l:$size-large,
+	m:$size-medium,
+	s:$size-small,
+	n:0
+);

@@ -1,0 +1,28 @@
+
+
+.nav {
+  padding: 10px;
+
+  &:after {
+    @include clearfix;
+  }
+  ul {
+    @include compact;
+  }
+  
+  li {
+    
+  }
+}
+
+// this is a test structure to test your designs
+.well {
+	padding:$size-medium;
+	background-color: rgba(0,0,0,0.1);
+	margin:1px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
